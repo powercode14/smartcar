@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sensing Car</string>
+    <string name="Close">Close</string>
+    <string name="Connect">Connect</string>
+    <string name="DataView">Press Connect Button</string>
+    <string name="Up">Up</string>
+    <string name="Right">Right</string>
+    <string name="Left">Left</string>
+    <string name="Down">Down</string>
+    <string name="Stop">Stop</string>
+    <string name="Get">Get</string>
+    <string name="IP">IP</string>
+    <string name="Manual">Manual</string>
+    <string name="Auto">Auto</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="#ffffff"
+    tools:context="com.example.ksh.smartcar.fragment.ManualFragment">
+
+    <Button
+        android:id="@+id/buttonUp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Up"
+        android:background="@drawable/up" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/stop"
+        android:layout_alignTop="@+id/buttonLeftTurn"
+        android:layout_toEndOf="@+id/buttonLeftTurn" />
+
+    <Button
+        android:id="@+id/buttonDown"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/down"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/buttonUp"
+        android:layout_toEndOf="@+id/buttonLeftTurn" />
+
+    <Button
+        android:id="@+id/buttonLeftTurn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/left"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/buttonUp"
+        android:layout_marginEnd="15dp" />
+
+    <Button
+        android:id="@+id/buttonRightTurn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/right"
+        android:layout_marginStart="15dp"
+        android:layout_alignBottom="@+id/buttonStop"
+        android:layout_toEndOf="@+id/buttonUp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonSense"
+        android:background="@drawable/sense"
+        android:layout_above="@+id/buttonRightTurn"
+        android:layout_alignEnd="@+id/buttonRightTurn" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:id="@+id/buttonList"
+        android:background="@drawable/list"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/buttonLeftTurn"
+        android:layout_marginEnd="17dp" />
+
+</RelativeLayout>
+

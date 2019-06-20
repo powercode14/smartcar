@@ -1,0 +1,11 @@
+1. gcc -o libsensor.so sensor.c -shared -I /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/include/ -I /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/include/linux/
+
+2. javah Sensor
+
+3. javac -classpath .:classes:/opt/pi4j/lib/'*' SmartCar.java
+
+4. export LD_LIBRARY_PATH=.
+
+5. stty 115200 < /dev/ttyUSB0
+
+6. sudo java -classpath .:classes:/opt/pi4j/lib/'*' SmartCar
